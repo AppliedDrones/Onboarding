@@ -8,7 +8,7 @@ Note for Windows Users: Dual-boot Ubuntu using a spare 32GB flash drive. Follow 
 
 Note for Mac Users: M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. As an alternative, you may either:
 - Purchase a cheap Windows laptop, or
-- Set up an Ubuntu-based virtual machine on AWS. (Note: Using a cloud-based virtual machine will result in networking issues, which you will need to resolve independently)
+- Set up an Ubuntu-based virtual machine on AWS. (Note: Using a cloud-based virtual machine will result in networking issues, which you will need to resolve independently).
 
 ## ROS2 Setup and Tutorials
 Install Robot Operating System 2(ROS2) Humble edition following the [Debian package guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
