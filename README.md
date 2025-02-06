@@ -2,7 +2,7 @@
 Welcome to the AppliedDrones research group! This guide will help you set up your development environment and familiarize you with our core tools. The estimated time to complete these tasks is approximately 2 months (depending on your prior experience).
 
 ## System Requirements
-Ubuntu Humble 22.04 (required)
+[Ubuntu 22.04 LTS Jammy Jellyfish](https://releases.ubuntu.com/jammy/) (required).
 
 Note for Windows Users: Dual-boot Ubuntu using a spare 32GB flash drive. Follow [this tutorial](https://youtu.be/uqZIp4ay-3s?si=bqlBcCVlpb37reJl).
 
