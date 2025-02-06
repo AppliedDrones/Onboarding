@@ -9,7 +9,7 @@ Note for Windows Users: Dual-boot Ubuntu using a spare 32GB flash drive. Follow 
 Note for Mac Users (M-series): M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. Consider alternatives like a cheap windows laptop or setting up an Ubuntu-based virtual machine using AWS.
 
 ## ROS2 Setup and Tutorials
-Install Robot Operating System 2(ROS2) Humble edition following the Debian package guide.
+Install Robot Operating System 2(ROS2) Humble edition following the [Debian package guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
 
 Complete the [beginner ROS tutorials](https://docs.ros.org/en/humble/Tutorials.html) and configure your environment. Guides of particular importance,
 - [Edit bash file configuration](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html).
