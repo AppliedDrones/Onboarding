@@ -1,4 +1,5 @@
 # Onboarding
+Estimated time to complete all below tasks: 2 months.
 
 ## System Requirements
 Ubuntu Humble 22.04 operating system with Robot Operating System 2 (ROS2) installation complete.
@@ -12,5 +13,7 @@ Complete all the [beginner ROS tutorials](https://docs.ros.org/en/humble/Tutoria
 - [Install the colcon build tool](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html).
 - [Create a workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html).
 
-## Pick a platform Nvidia jetbot or turtlebot
+## NVIDIA Isaac ROS
+Familiarize yourself with NVIDIA’s robotics ecosystem by reading the Read the [Isaac ROS overview](https://developer.nvidia.com/isaac/ros).
 
+Install the [Isaac ROS suite](https://nvidia-isaac-ros.github.io/getting_started/) and complete simulation tutorials.
