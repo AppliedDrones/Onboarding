@@ -6,7 +6,7 @@ Ubuntu Humble 22.04 (required)
 
 Note for Windows Users: Dual-boot Ubuntu using a spare 32GB flash drive. Follow [this tutorial](https://youtu.be/uqZIp4ay-3s?si=bqlBcCVlpb37reJl).
 
-Note for Mac Users (M-series): M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. Consider alternatives like a cheap windows laptop or setting up an Ubuntu-based an AWS EC2 virtual machine.
+Note for Mac Users (M-series): M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. Consider alternatives like a cheap windows laptop or setting up an Ubuntu-based virtual machine using AWS.
 
 ## ROS2 Setup and Tutorials
 Install Robot Operating System 2(ROS2) Humble edition following the Debian package guide.
