@@ -1,5 +1,5 @@
 # Onboarding
-Estimated time to complete all below tasks: 2 months.
+Welcome to the AppliedDrones research group! This guide will help you set up your development environment and familiarize you with our core tools. The estimated time to complete these tasks is approximately 2 months (depending on your prior experience).
 
 ## System Requirements
 Ubuntu Humble 22.04 operating system with Robot Operating System 2 (ROS2) installation complete.
