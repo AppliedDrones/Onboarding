@@ -24,4 +24,7 @@ Familiarize yourself with NVIDIA’s robotics ecosystem by reading the [Isaac RO
 Install the [Isaac ROS suite](https://nvidia-isaac-ros.github.io/getting_started/) and complete simulation tutorials.
 
 ## Linux, Git, and Docker Tutorials
-- Todo: place materials here as I encounter them.
+- Linux Commands
+- Linux Operating System structure
+- Git Commands and Best Practices
+- Docker crash course
