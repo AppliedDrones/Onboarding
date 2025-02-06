@@ -22,3 +22,6 @@ Complete the [beginner ROS tutorials](https://docs.ros.org/en/humble/Tutorials.h
 Familiarize yourself with NVIDIA’s robotics ecosystem by reading the [Isaac ROS overview](https://developer.nvidia.com/isaac/ros).
 
 Install the [Isaac ROS suite](https://nvidia-isaac-ros.github.io/getting_started/) and complete simulation tutorials.
+
+## Linux, Git, and Docker Tutorials
+- Todo: place materials here as I encounter them.
