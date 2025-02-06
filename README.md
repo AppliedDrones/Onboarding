@@ -14,6 +14,6 @@ Complete all the [beginner ROS tutorials](https://docs.ros.org/en/humble/Tutoria
 - [Create a workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html).
 
 ## NVIDIA Isaac ROS
-Familiarize yourself with NVIDIA’s robotics ecosystem by reading the Read the [Isaac ROS overview](https://developer.nvidia.com/isaac/ros).
+Familiarize yourself with NVIDIA’s robotics ecosystem by reading the [Isaac ROS overview](https://developer.nvidia.com/isaac/ros).
 
 Install the [Isaac ROS suite](https://nvidia-isaac-ros.github.io/getting_started/) and complete simulation tutorials.
