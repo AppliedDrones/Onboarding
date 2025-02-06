@@ -2,13 +2,16 @@
 Welcome to the AppliedDrones research group! This guide will help you set up your development environment and familiarize you with our core tools. The estimated time to complete these tasks is approximately 2 months (depending on your prior experience).
 
 ## System Requirements
-Ubuntu Humble 22.04 operating system with Robot Operating System 2 (ROS2) installation complete.
+Ubuntu Humble 22.04 (required)
 
-Windows machines can be dual booted with Ubuntu ([tutorial here](https://youtu.be/uqZIp4ay-3s?si=rcSGl9dLHojgGoph)). You will need a spare flash drive (32GB) to complete this step. Mac M-series chips are incompatible with Ubuntu because Apple uses a locked-down ARM architecture that doesn't support traditional x86 machine dual-booting.
+Note for Windows Users: Dual-boot Ubuntu using a spare 32GB flash drive. Follow [this tutorial](https://youtu.be/uqZIp4ay-3s?si=bqlBcCVlpb37reJl).
 
-Install ROS2 Humble edition using the [Debian package guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
+Note for Mac Users (M-series): M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. Consider alternatives like a cheap windows laptop or setting up an Ubuntu-based an AWS EC2 virtual machine.
 
-Complete all the [beginner ROS tutorials](https://docs.ros.org/en/humble/Tutorials.html) and complete environment configuration. Specifically,
+## ROS2 Setup and Tutorials
+Install Robot Operating System 2(ROS2) Humble edition following the Debian package guide.
+
+Complete the [beginner ROS tutorials](https://docs.ros.org/en/humble/Tutorials.html) and configure your environment. Guides of particular importance,
 - [Edit bash file configuration](https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Configuring-ROS2-Environment.html).
 - [Install the colcon build tool](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Colcon-Tutorial.html).
 - [Create a workspace](https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html).
