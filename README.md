@@ -45,7 +45,7 @@ Networking is one of the unexpected challenges in robotics development. Robots r
 
 Follow [this guide](https://serverfault.com/questions/225155/virtualbox-how-to-set-up-networking-so-both-host-and-guest-can-access-internet) to complete networking setup when using Virtualbox.
 
-Commands to verify networking configuration:
+Verify networking is configured correctly:
 ```
 # After your VirtualBox networking is setup, you should see your new network interface.
 ip a
