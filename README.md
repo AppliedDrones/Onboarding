@@ -2,7 +2,7 @@
 Welcome to the AppliedDrones research group! This guide will help you set up your development environment and familiarize you with our core tools. The estimated time to complete these tasks is approximately 2 months (depending on your prior experience).
 
 ## System Requirements
-[Ubuntu 22.04 LTS Jammy Jellyfish](https://releases.ubuntu.com/jammy/) (required).
+Ubuntu 22.04 LTS Jammy Jellyfish. Download [here](https://releases.ubuntu.com/jammy/).
 
 For Windows Users: Install VirtualBox to create a virtual machine running Ubuntu 22.04 LTS. This approach lets you simulate the target environment without altering your primary Windows setup.
 
