@@ -10,6 +10,53 @@ Ubuntu 22.04 LTS Jammy Jellyfish.
 1. Purchase a cheap Windows laptop, or
 2. Set up an Ubuntu-based virtual machine on AWS. (Using a cloud-based virtual machine will result in networking issues, which you will need to resolve independently).
 
+## Environment Configuration
+Open your newly made development environment and run the below commands:
+```
+# System updates & remove unused packages
+sudo apt update && sudo apt upgrade -y
+sudo apt autoremove -y
+
+# (If needed) Add your user to gain sudo command access
+sudo adduser yourusername
+sudo usermod -aG sudo yourusername
+
+# Install Git
+sudo apt install git
+git config --global user.name "Your Name"
+git config --global user.email "your.email@example.com"
+
+# Github SSH Key Setup
+ssh-keygen -t ed25519 -C "your.email@example.com"
+# Add ssh key to ssh agent
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_ed25519
+# Copy ssh key to keyboard
+cat ~/.ssh/id_ed25519.pub
+# Paste the key into GitHub/GitLab/Bitbucket under SSH keys.
+
+# Docker Install
+sudo apt install -y docker.io docker-compose
+sudo usermod -aG docker $USER  # Allow non-root use
+```
+Now we have some networking configuration to ensure our virtual machine can connect to external ip addresses.
+
+Networking is one of the unexpected challenges in robotics development. Robots require precise IP configurations, routing, and wireless setups. For a deeper conceptual dive, check out [Networking for Robots: A Crash Course](https://www.robotsforroboticists.com/networking-robots-crash-course/).
+
+Follow [this guide](https://serverfault.com/questions/225155/virtualbox-how-to-set-up-networking-so-both-host-and-guest-can-access-internet) for to complete networking setup when using Virtualbox.
+
+Commands to verify networking configuration:
+```
+# After your VirtualBox networking is setup, you should see your new network interface.
+ip a
+
+# From VirtualBox Ubuntu VM, check network connection to host machine.
+ping <host machine ip address>
+
+# From Host Machine, check network connection to VirtualBox Ubuntu VM.
+ping <Ubuntu vm ip address>
+```
+
 ## ROS2 Setup and Tutorials
 Install Robot Operating System 2 (ROS2) Humble edition following the [Debian package guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
 
