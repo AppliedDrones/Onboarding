@@ -4,9 +4,9 @@ Welcome to the AppliedDrones research group! This guide will help you set up you
 ## System Requirements
 Ubuntu 22.04 LTS Jammy Jellyfish.
 
-For Windows Users: Install VirtualBox to create a virtual machine running Ubuntu 22.04 LTS. This approach lets you simulate the target environment without altering your primary Windows setup.
+**For Windows Users**: Install VirtualBox to create a virtual machine running Ubuntu 22.04 LTS. This approach lets you simulate the target environment without altering your primary Windows setup.
 
-For Mac Users: M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. As an alternative, you may either:
+**For Mac Users**: M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. As an alternative, you may either:
 1. Purchase a cheap Windows laptop, or
 2. Set up an Ubuntu-based virtual machine on AWS. (Using a cloud-based virtual machine will result in networking issues, which you will need to resolve independently).
 
