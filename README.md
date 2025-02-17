@@ -43,7 +43,7 @@ Now we have some networking configuration to ensure our virtual machine can conn
 
 Networking is one of the unexpected challenges in robotics development. Robots require precise IP configurations, routing, and wireless setups. For a deeper conceptual dive, check out [Networking for Robots: A Crash Course](https://www.robotsforroboticists.com/networking-robots-crash-course/).
 
-Follow [this guide](https://serverfault.com/questions/225155/virtualbox-how-to-set-up-networking-so-both-host-and-guest-can-access-internet) for to complete networking setup when using Virtualbox.
+Follow [this guide](https://serverfault.com/questions/225155/virtualbox-how-to-set-up-networking-so-both-host-and-guest-can-access-internet) to complete networking setup when using Virtualbox.
 
 Commands to verify networking configuration:
 ```
