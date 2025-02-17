@@ -5,7 +5,7 @@ Welcome to the AppliedDrones research group! This guide will help you set up you
 [Ubuntu 22.04 LTS Jammy Jellyfish](https://releases.ubuntu.com/jammy/) (required).
 
 Note for Windows Users: You may either:
-1. Install VirtualBox to create a virtual machine running Ubuntu 22.04 LTS. This approach lets you simulate the target environment without altering your primary Windows setup.
+1. (**Highly Recommended**) Install VirtualBox to create a virtual machine running Ubuntu 22.04 LTS. This approach lets you simulate the target environment without altering your primary Windows setup.
 2. Dual-boot Ubuntu using a spare 32GB flash drive. Follow [this tutorial](https://youtu.be/uqZIp4ay-3s?si=bqlBcCVlpb37reJl).
 
 Note for Mac Users: M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. As an alternative, you may either:
