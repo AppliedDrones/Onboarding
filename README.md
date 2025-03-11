@@ -4,7 +4,7 @@ Welcome to the AppliedDrones research group! This guide will help you set up you
 ## System Requirements
 Ubuntu 22.04 LTS Jammy Jellyfish. [Download here](https://releases.ubuntu.com/jammy/).
 
-**For Windows Users**: Dual boot the Ubuntu 22.04 using this [tutorial](https://youtu.be/uqZIp4ay-3s?si=UPz9LnIWTaNMuY79).
+**For Windows Users**: Dual boot Ubuntu 22.04 using this [tutorial](https://youtu.be/uqZIp4ay-3s?si=UPz9LnIWTaNMuY79).
 
 **For Mac Users**: M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. To meaningfully contribute to any robotics software engineering project, a Linux operating system is required. Buy a cost-efficient windows laptop to dual boot.
 
