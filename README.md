@@ -4,11 +4,9 @@ Welcome to the AppliedDrones research group! This guide will help you set up you
 ## System Requirements
 Ubuntu 22.04 LTS Jammy Jellyfish. [Download here](https://releases.ubuntu.com/jammy/).
 
-**For Windows Users**: Install VirtualBox to create a virtual machine running Ubuntu 22.04 LTS. This approach lets you simulate the target environment without altering your primary Windows setup. Install guide [linked here](https://www.geeksforgeeks.org/how-to-install-virtualbox-on-windows/).
+**For Windows Users**: Dual boot the Ubuntu 22.04 using this [tutorial](https://youtu.be/uqZIp4ay-3s?si=UPz9LnIWTaNMuY79).
 
-**For Mac Users**: M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. As an alternative, you may either:
-1. Purchase a cheap Windows laptop, or
-2. Set up an Ubuntu-based virtual machine on AWS. (Using a cloud-based virtual machine will result in networking issues, which you will need to resolve independently).
+**For Mac Users**: M-series chips are incompatible with Ubuntu due to the locked-down ARM architecture. To meaningfully contribute to any robotics software engineering project, a Linux operating system is required. Buy a cost-efficient windows laptop to dual boot.
 
 ## Environment Configuration
 Open your newly made development environment and run the below commands:
@@ -39,24 +37,6 @@ cat ~/.ssh/id_ed25519.pub
 sudo apt install -y docker.io docker-compose
 sudo usermod -aG docker $USER  # Allow non-root use
 ```
-Now we have to complete some networking configuration to ensure our virtual machine can connect to external ip addresses.
-
-Networking is one of the unexpected challenges in robotics development. Robots require precise IP configurations, routing, and wireless setups. For a deeper conceptual dive, check out [Networking for Robots: A Crash Course](https://www.robotsforroboticists.com/networking-robots-crash-course/).
-
-Follow [this guide](https://serverfault.com/questions/225155/virtualbox-how-to-set-up-networking-so-both-host-and-guest-can-access-internet) to complete networking setup when using Virtualbox.
-
-Verify networking is configured correctly:
-```
-# After your VirtualBox networking is setup, you should see your new network interface.
-ip a
-
-# From VirtualBox Ubuntu VM, check network connection to host machine.
-ping <host machine ip address>
-
-# From Host Machine, check network connection to VirtualBox Ubuntu VM.
-ping <Ubuntu vm ip address>
-```
-
 ## ROS2 Setup and Tutorials
 Install Robot Operating System 2 (ROS2) Humble edition following the [Debian package guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
 
