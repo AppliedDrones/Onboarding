@@ -55,8 +55,8 @@ We selected Google due to the easy of use for deployment and highly performant v
 The AppliedDrones research group focuses on applying new technology to problems that are either unsolved or are solveable by hacky methods which are never deployable in the real world.
 
 There are two recent technological breakthroughs we seek to leverage:
-1. Reduced Sim-To-Real Gap: New robotics simulators are excellent at real world physics modelling, synthetic data creation, and rapid multi-scenario testing. i.e. Nvidia ISAAC ROS.
-2. Large Language Models: Multi-modal models can see the world as it is, chat with users over text about what they are seeing, and reference contextually specific data/strategies/information via Retrieval Augmented Generation. i.e. Google Cloud LLMS & Vector Database.
+1. **Reduced Sim-To-Real Gap**: New robotics simulators are excellent at real world physics modelling, synthetic data creation, and rapid multi-scenario testing. i.e. Nvidia ISAAC ROS.
+2. **Large Language Models**: Multi-modal models can see the world as it is, chat with users over text about what they are seeing, and reference contextually specific data/strategies/information via Retrieval Augmented Generation. i.e. Google Cloud LLMS & Vector Database.
 
 Teams are strictly limited to 3 members. No exceptions.
 
