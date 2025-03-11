@@ -32,10 +32,6 @@ ssh-add ~/.ssh/id_ed25519
 # Copy ssh key to keyboard
 cat ~/.ssh/id_ed25519.pub
 # Paste the key into GitHub/GitLab/Bitbucket under SSH keys.
-
-# Docker Install
-sudo apt install -y docker.io docker-compose
-sudo usermod -aG docker $USER  # Allow non-root use
 ```
 ## ROS2 Setup and Tutorials
 Install Robot Operating System 2 (ROS2) Humble edition following the [Debian package guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
