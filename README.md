@@ -31,7 +31,7 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519
 # Copy ssh key to keyboard
 cat ~/.ssh/id_ed25519.pub
-# Paste the key into GitHub/GitLab/Bitbucket under SSH keys.
+# Paste the key into GitHub under SSH keys.
 ```
 ## ROS2 Setup and Tutorials
 Install Robot Operating System 2 (ROS2) Humble edition following the [Debian package guide](https://docs.ros.org/en/humble/Installation/Ubuntu-Install-Debs.html).
@@ -52,12 +52,12 @@ Familiarize yourself with Google's Cloud Development Console, large lanuguage mo
 We selected Google due to the easy of use for deployment and highly performant vector database which we use for Retrieval Augmented Generation.
 
 ## Problem Statement and Team Formation
-The AppliedDrones research group focuses on applying new technology to problems that are either unsolved or are solveable by hacky methods which are never deployable in the real world.
+The AppliedDrones research group focuses on leveraging emerging technology to tackle problems that are either unsolved or currently addressed by impractical, non-deployable methods.
 
-There are two recent technological breakthroughs we seek to leverage:
-1. **Reduced Sim-To-Real Gap**: New robotics simulators are excellent at real world physics modelling, synthetic data creation, and rapid multi-scenario testing. i.e. Nvidia ISAAC ROS.
-2. **Large Language Models**: Multi-modal models can see the world as it is, chat with users over text about what they are seeing, and reference contextually specific data/strategies/information via Retrieval Augmented Generation. i.e. Google Cloud LLMS & Vector Database.
+We aim to take advantage of two key technological advancements:
+1. **Reduced Sim-to-Real Gap** – Modern robotics simulators, such as NVIDIA Isaac ROS, provide highly accurate physics modeling, enable rapid multi-scenario testing, and facilitate synthetic data generation for real-world applications.
+2. **Large Language Models** – Multi-modal models can interpret visual data, communicate with users about what they observe, and retrieve contextually relevant information through Retrieval-Augmented Generation (RAG). We utilize Google Cloud’s LLMs and vector databases for this purpose.
 
-Teams are strictly limited to 3 members. No exceptions.
+Each team is limited to three members—no exceptions.
 
-Pick an application. Create a realistic timeline for a 2 semester project. Get coding.
+Select an application, develop a realistic two-semester project timeline, and start coding.
